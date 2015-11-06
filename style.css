@@ -32,6 +32,7 @@ a:focus, a:hover {
   border-color: rgba(255,255,255,1);
 }
 
+*/Left bar*/
 a::before {
   position: absolute;
   top: 0;
@@ -45,6 +46,7 @@ a::before {
   transition: max-height .3s,border-color 0s;
 }
 
+*/Right bar*/
 a::after {
   position: absolute;
   left: 0;
