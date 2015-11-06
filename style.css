@@ -49,7 +49,7 @@ a::before {
 */Right bar*/
 a::after {
   position: absolute;
-  /*top attribute not included here, so the right bar moves from bottom to top instead of top to bottom*/
+  /*top property not included here, so the right bar moves from bottom to top instead of top to bottom*/
   left: 0;
   bottom: 0;
   right: 0;
